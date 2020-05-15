@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@flowx/container": "^1.0.2",
-    "@flowx/http": "^1.0.2",
+    "@flowx/http": "^1.0.3",
     "@reactivex/rxjs": "^6.5.5",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.13",
