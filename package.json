@@ -4,7 +4,10 @@
   "description": "Http template for typeservice",
   "scripts": {
     "dev": "ts-node src/app.bootstrap.ts --port=3000",
-    "build": "rm -rf dist && tsc -d"
+    "build": "rm -rf dist && tsc -d",
+    "start": "pm2 start dist/app.bootstrap.js --name=typeservice-http-template -- --port=3000",
+    "stop": "pm2 stop typeservice-http-template",
+    "restart": "pm2 restart typeservice-http-template"
   },
   "repository": {
     "type": "git",
