@@ -1,4 +1,4 @@
-import * as Koa from 'koa';
+import Koa from 'koa';
 import { HttpErrorException } from '@flowx/http';
 import { THttpContext } from '../../../app.bootstrap';
 import { injectable } from 'inversify';
